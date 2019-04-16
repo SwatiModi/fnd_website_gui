@@ -7,8 +7,53 @@ body{
 	line-height: 1.5;
     font-family: sans-serif;
     font-family: 'Lato', sans-serif;
-	text-align: center;
 }
 *,*:before,*:after{
 	box-sizing: border-box;
+}
+.hideme{
+    display: none;
+}
+.fullcontainer{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.navwrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 7%;
+    align-items: center;
+}
+.navwrapper .logobox{
+    flex-basis: 30%;
+}
+.navwrapper .items{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.mainbox{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.mainbox .searchbox{ 
+
+}
+.mainbox .resultbox{ 
+
+}
+.extensn{
+    height: 20%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right:0%;
+}
+.extensn p{
+    display: inline-block;
 }
