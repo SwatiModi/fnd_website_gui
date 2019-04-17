@@ -9,10 +9,15 @@ body{
     font-family: sans-serif;
     font-family: 'Lato', sans-serif;
     color:white;
-    background:blue;
+    background:#020F84;
+    font-weight: bold;
 }
 *,*:before,*:after{
 	box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 .hideme{
     display: none;
@@ -28,32 +33,42 @@ body{
     flex-wrap: nowrap;
     height: 7%;
     align-items: center;
-    border-bottom: 1px solid #b5aaaa;
+    border-bottom: 1px solid #f3f3f3;
 }
 .navwrapper .logobox{
-    flex-basis: 30%;
+    flex-basis: 20%;
+    text-align: center;
 }
 .navwrapper .items{
     flex-basis: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: flex-end;
+}
+.navitem{
+    margin: 0% 4%;
 }
 .mainbox{
     width: 100%;
     height: auto;
     text-align: center;
+    margin-top: 7%;
 }
 .mainbox h1{
+    font-size: 3rem;
     margin-bottom: 0px;
 }
+.mainbox p{
+    margin: 0.5% 0% 1.5%;
+    font-size: 18px;
+}
 .mainbox .searchbox{ 
-
+    margin: 1% 0% 4%;
 }
 .searchbox .searchform{
     margin:auto;
-    width: 80%;
+    width: 60%;
 }
 .inputfield{
     width: 100%;
@@ -63,7 +78,7 @@ body{
     border-radius: 5px
 }
 .inputfield button{
-    background: 0 0;
+    background:white;
     border: 0;
     width: 15%;
     height: 100%;
@@ -105,7 +120,7 @@ input#search{
     right:0%;
     padding: 2% 10%;
     display: flex;
-    border-top: 1px solid #9e9a9a;
+    border-top: 1px solid #f3f3f3;
 }
 .extensn p{
     display: inline-block;
