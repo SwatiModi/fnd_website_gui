@@ -25,6 +25,7 @@ body{
     flex-wrap: nowrap;
     height: 7%;
     align-items: center;
+    border-bottom: 1px solid #b5aaaa;
 }
 .navwrapper .logobox{
     flex-basis: 30%;
@@ -40,6 +41,9 @@ body{
     width: 100%;
     height: auto;
     text-align: center;
+}
+.mainbox h1{
+    margin-bottom: 0px;
 }
 .mainbox .searchbox{ 
 
