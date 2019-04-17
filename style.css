@@ -109,6 +109,14 @@ input#search{
     position: absolute;
     left: 0;
 }
+textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    overflow: auto;
+    width: 60%;
+    text-align: left;
+}
 .mainbox .resultbox{ 
 
 }
