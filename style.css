@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Anton|Lato');
+/* font-family: 'Anton', sans-serif; */
 
 body{
 	margin: 0;
@@ -7,6 +8,8 @@ body{
 	line-height: 1.5;
     font-family: sans-serif;
     font-family: 'Lato', sans-serif;
+    color:white;
+    background:blue;
 }
 *,*:before,*:after{
 	box-sizing: border-box;
@@ -48,16 +51,76 @@ body{
 .mainbox .searchbox{ 
 
 }
+.searchbox .searchform{
+    margin:auto;
+    width: 80%;
+}
+.inputfield{
+    width: 100%;
+    height:3.2rem;
+    position: relative;
+    border: 1.2px solid #959299;
+    border-radius: 5px
+}
+.inputfield button{
+    background: 0 0;
+    border: 0;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    padding: 0;
+    cursor: pointer;
+    text-transform: none;
+    overflow: hidden;
+    display: inline-block;
+    right: 0px;
+}
+button svg{
+    fill: #ccc;
+    height: 100%;
+    transition: all .2s ease-out,color .2s ease-out;
+    cursor: pointer;
+}
+input#search{
+    height: 100%;
+    border: 0;
+    background: #fff;
+    display: inline-block;
+    width: 85%;
+    padding: 0% 2%;
+    font-size: 16px;
+    color: #959299;
+    position: absolute;
+    left: 0;
+}
 .mainbox .resultbox{ 
 
 }
 .extensn{
-    height: 20%;
+    height: 15%;
     position: absolute;
     bottom: 0%;
     left: 0%;
     right:0%;
+    padding: 2% 10%;
+    display: flex;
+    border-top: 1px solid #9e9a9a;
 }
 .extensn p{
     display: inline-block;
+    flex-basis: 40%;
+    margin: auto;
+}
+.extensn a{
+    position: relative;
+    flex-basis: 30%;
+    margin: auto;
+    color:white;
+    text-decoration: none;
+}
+.extensn a svg{
+    position: absolute;
+    top: -50%;
+    margin: 0% 3%;
 }
